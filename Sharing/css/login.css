@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+    }
+    header{
+        width: 1060px;
+        height: 90px;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+    img{border:0px;} 
+    #logo a img {
+        border: 0px;
+        width: 175px;
+        height: 70px;
+    }
+    #logo{
+    float: left;
+    margin-top: 20px;
+    }
+    .up-menu {
+        float: right;
+        margin-top: 20px;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+        color: #000000;
+    }
+    .up-menu a{
+        text-decoration: none;
+        color: #000000;
+    }
+    .up-menu a:hover {
+        color: #F1B024;
+    }
+    #menu{
+        width: 1060px;
+        height: 60px;
+        float: right;
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+    #menu ul li{ /*전체 메뉴 리스트 스타일*/
+        float: left;
+        width: 265px;
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        list-style-type: none;
+    }
+    #menu ul li a{ /*전체 메뉴 리스트 링크 스타일*/
+        text-decoration: none;
+        color: black;
+        margin: 0;
+        padding: 7px 8px;
+        display: block;
+    }
+    #menu ul li:hover a{ /*전체 메뉴 링크에 마우스 포인터를 올렸을 때 스타일*/
+        margin: 0;
+        padding: 5;
+        color: #F1B024;
+    }
+#main {
+    width: 1060px;
+    height: 700px;
+    margin: 0 auto;
+}
+#main h3 {
+    position: relative;
+	text-align: center;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+/* 회원가입 폼 */
+.login1 {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#table {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    margin: 0 auto;
+}
+#table tr .inform{
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    background-color: #e6e1d8;
+}
+#table tr .input {
+    width: 300px;
+    text-align: center;
+    border: 1px solid #999999;
+}
+.login2 .loginForm .button {
+    margin: 0 auto;
+    padding-left: 43%;
+}
+.login2 .text{
+    text-align: center;
+    margin: 0 auto;
+}
+.login2.text:hover{
+    text-decoration: none;
+}
+.button {
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    height: 30px;
+    text-decoration: none;
+}
+.button a {
+	text-decoration: none;
+	color: #000000;
+}
+.button a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+footer {
+    background-color: #DEDEDE;
+    width: 100%;
+    height: 100px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    text-align: center;
+    color: #7B7B7B;
+    font-size: 14px;
+    padding-top: 40px;
+    line-height: 25px;
+}
+footer a {
+    color: #7B7B7B;
+    text-decoration: none;
+}
+footer a:hover {
+	color: #7B7B7B;
+    text-decoration: none;
+}
