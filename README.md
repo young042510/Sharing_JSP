@@ -12,9 +12,10 @@
 - 2022.09 ~ 22.11
 
 <h1>😄 팀원 소개</h1>
+
 <strong>Jae Young (팀장, 백엔드)</strong>
 - 기획 - ppt제작 및 발표준비
-- 개발 - 전체DB설계, 로그인/회원가입, 예약관련 기능(판매, 장바구니, 예약확인/조회)</br>
+- 개발 - 전체DB설계, 로그인/회원가입, 예약관련 기능(판매, 장바구니, 예약확인/조회)
 
 <strong>정**(프론트엔드)</strong>
 - 발표 영상 제작
@@ -22,3 +23,26 @@
 
 <strong>이**(프론트엔드)</strong>
 - 웹 퍼블리싱 - 메인페이지, 레이아웃 ,서브페이지(로고), 사이트 초기시안, 전체 페이지 작업
+
+
+<h1>⚙️ 개발 환경</h1>
+
+<strong>⚒️Tool</strong>
+- Visual Studio Code
+- Eclipse IDE for Enterprise Java Developers. Version: 2019-12 (4.14.0)
+- Tomcat 9.0
+- MySQL workbench CE 8.0
+
+  
+<strong>Java</strong>
+- Java: 8
+- JDK/JRE: 13.0.2
+
+<strong>Collaboration Tool</strong>
+- notion
+- Gooole Workspace
+
+
+<h1>🎞️ 영상 </h1>
+
+  
