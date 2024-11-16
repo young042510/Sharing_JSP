@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sharing</title>
+<link href="css/join.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+  <div id="logo">
+		<a href="main1.html"><img src="images/logo.png" width="250" height="100" alt=""/></a>
+	</div>
+	<div class="up-menu">|<a href="main1.html">&nbsp;Home&nbsp;</a></div>
+	<div class="up-menu">|<a href="Login.jsp">&nbsp;로그인&nbsp;</a></div>
+	<div class="up-menu">|<a href="#">&nbsp;MY PAGE&nbsp;</a></div>
+	<div class="up-menu"><a href="InsertMember.jsp">&nbsp;회원가입&nbsp;</a></div>
+  <!--메뉴-->
+  <div id="menu">
+		<ul>
+			<li><a href="about.jsp">ABOUT</a></li>
+			<li><a href="studio.html">스튜디오</a></li>
+			<li><a href="partyroom.html">파티룸</a></li>
+			<li><a href="meeting.html">회의실</a></li>
+		</ul>
+	</div>
+</header>
+
+<div id="main">
+
+    <h3>[회원가입]</h3><br><br>
+  <div class="login">
+	<div class="login1">
+		정보를 입력해 주세요
+	</div>
+	<div class="login2">
+	<form method="post" action="#" class="joinForm">
+			<table id="table" cellpadding="5" style="font-size:10pt">
+				<tr>
+					<td class="inform">아이디</td>
+					<td class="input"><input type="text" name="id"></td>
+				</tr>
+				<tr>
+					<td class="inform">비밀번호</td>
+					<td class="input"><input type="password" name="pass1"></td>
+				</tr>
+				<tr>
+					<td class="inform">비밀번호 재확인</td>
+					<td class="input"><input type="password" name="pass2">   <input type="button" name="passcheck" value="비밀번호 재확인"></td>
+				</tr>
+				<tr>
+					<td class="inform">이름</td>
+					<td class="input"><input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td class="inform">생년월일</td>
+					<td class="input">
+						<select name="year">
+							<option value="">-- 년 --</option>
+							<option value="1995">1995</option>
+							<option value="1996">1996</option>
+							<option value="1997">1997</option>
+							<option value="1998">1998</option>
+							<option value="1999">1999</option>
+							<option value="2000">2000</option>
+							<option value="2001">2001</option>
+							<option value="2002">2002</option>
+							<option value="2003">2003</option>
+							<option value="2004">2004</option>
+							<option value="2005">2005</option>
+							<option value="2006">2006</option>
+						  </select>
+						  <select name="month">
+							<option value="">-- 월 --</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+						  </select>
+						  <select name="day">
+							<option value="">-- 일 --</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						  </select>
+
+					</td>
+				</tr>
+				<tr>
+					<td class="inform">성별</td>
+					<td class="input">
+						<input type="radio" name="sex" value="남">남
+						<input type="radio" name="sex" value="여">여
+					</td>
+				</tr>
+				<tr>
+					<td class="inform">휴대전화</td>
+					<td class="input"><input type="text" name="user_phone" placeholder="010-****-****">
+						<input type="button" name="certification" value="인증번호 받기"><br>
+						<input type="text" name="certification" placeholder="인증번호를 입력하세요">
+						<input type="button" name="certification" value="확인">
+					</td>
+				</tr>
+				<tr>
+					<td class="inform">이메일</td>
+					<td class="input"><input type="text" name="email"></td>
+				</tr>
+			</table>
+		<br>
+			<div class="button">
+					<button type="submit"><a href="javascript:Join.submit()">회원가입</a></button> &nbsp;
+				  <button type="reset"><a href="javascript:Join.reset()">다시 작성</a></button>
+			</div>
+		<br>
+		<br>
+</form>
+</div>
+</div>
+</div>
+<footer>
+상호명 주식회사 Sharing | 사업자등록번호 111-22-33333 | 고객센터 123-4567-8989<br>
+주소 31020 충청남도 천안시 서북구 성환읍 대학로 91 | <a href="manager_index.jsp">관리자 로그인</a><br>
+Copyright © 2022 Sharing. All rights reserved.
+</footer>
+</body>
+</html>
