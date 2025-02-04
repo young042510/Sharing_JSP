@@ -39,7 +39,7 @@
 
   
 <strong>Java</strong>
-- Java: 8
+- Java: 11
 - JDK/JRE: 13.0.2
 
 <strong>Collaboration Tool</strong>
